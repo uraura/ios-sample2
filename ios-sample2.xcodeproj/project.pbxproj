@@ -13,6 +13,7 @@
 		2DA43D0D21ECC3D500ED94DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DA43D0C21ECC3D500ED94DD /* Assets.xcassets */; };
 		2DA43D1021ECC3D500ED94DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DA43D0E21ECC3D500ED94DD /* LaunchScreen.storyboard */; };
 		2DA43D1821ECCBFD00ED94DD /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA43D1721ECCBFD00ED94DD /* PlayViewController.swift */; };
+		2DA43D1A21ECD31500ED94DD /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DA43D1921ECD31500ED94DD /* RecordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2DA43D0F21ECC3D500ED94DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DA43D1121ECC3D500ED94DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DA43D1721ECCBFD00ED94DD /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		2DA43D1921ECD31500ED94DD /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2DA43D0521ECC3D400ED94DD /* AppDelegate.swift */,
 				2DA43D0721ECC3D400ED94DD /* ViewController.swift */,
 				2DA43D0921ECC3D400ED94DD /* Main.storyboard */,
+				2DA43D1921ECD31500ED94DD /* RecordViewController.swift */,
 				2DA43D1721ECCBFD00ED94DD /* PlayViewController.swift */,
 				2DA43D0C21ECC3D500ED94DD /* Assets.xcassets */,
 				2DA43D0E21ECC3D500ED94DD /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				2DA43D0821ECC3D400ED94DD /* ViewController.swift in Sources */,
 				2DA43D1821ECCBFD00ED94DD /* PlayViewController.swift in Sources */,
 				2DA43D0621ECC3D400ED94DD /* AppDelegate.swift in Sources */,
+				2DA43D1A21ECD31500ED94DD /* RecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

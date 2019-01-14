@@ -8,9 +8,10 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, RecordViewControllerDelegate {
 
     @IBOutlet var tableView: UITableView!
+    @IBOutlet var addBtn: UIButton!
 
     let data = ["国語", "算数", "理科", "社会", "英語"]
 
@@ -54,6 +55,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             let playView: PlayViewController = (segue.destination as? PlayViewController)!
             playView.selected = selected
         }
+    }
+
+    @IBAction func addBtnPushed(sender: UIButton) {
+        if let modal = self.storyboard?.instantiateViewController(withIdentifier: "RecordViewController") as? RecordViewController {
+            modal.modalTransitionStyle = .coverVertical
+            modal.modalPresentationStyle = .fullScreen
+            modal.view.backgroundColor = UIColor.blue
+
+            modal.delegate = self
+
+            self.present(modal, animated: true, completion: nil)
+        }
+    }
+
+    func closeBtnDidPush(sender: RecordViewController) {
+        self.dismiss(animated: true, completion: nil)
     }
 }
 
